@@ -5,7 +5,7 @@
     parser.add_argument("--cpu", type=str, choices=list(cpu_types.keys()),
                         default="atomic",
                         help="CPU model to use")
-    parser.add_argument("--cpu-freq", type=str, default="4GHz")
+    parser.add_argument("--cpu-freq", type=str, default="1GHz")
     parser.add_argument("--num-cores", type=int, default=1,
                         help="Number of CPU cores")
     parser.add_argument("--mem-type", default="DDR3_1600_8x8",
@@ -21,10 +21,13 @@
 ```
 
 CPU Type : Atomic <br />
-CPU Frequency : 4GHz <br />
+CPU Frequency : 1GHz <br />
 Num of Cores : 1 <br />
 Cash Memory : DDR3_1600_8x8 <br />
 RAM Size : 2GB <br />
+
+### Q2a
+
 
 ### Q2b 
 sim_seconds : seconds of the simulations <br />
