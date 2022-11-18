@@ -27,7 +27,9 @@ Cash Memory : DDR3_1600_8x8 <br />
 RAM Size : 2GB <br />
 
 ### Q2a
-
+Line 59: clock = 1000, this means that the frequency is 1GHz
+Line 66: cpu_type = MinorCPU
+b.
 
 ### Q2b 
 sim_seconds : seconds of the simulations <br />
@@ -35,7 +37,10 @@ sim_insts : number of instructions simulated <br />
 host_inst_rate: The simulator instruction rate <br />
 
 ### Q2d
-Θα παρατηρούσα πόσα miss έχω στην L1
+L2 accesses <br /> 
+Instructions : 327 (line 840 in stats.txt) <br />
+Data : 147 (line 841 in stats.txt) <br />
+I would observe how many misses I have in L1
 
 ### Q3
 The gem5 has two different CPU models, included in the in-order category of CPUs, the Minor and the Simple CPU.
