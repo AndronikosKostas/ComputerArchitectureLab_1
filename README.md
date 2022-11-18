@@ -46,7 +46,7 @@ The SimpleCPU is a purely functional, in-order model that is suited for cases wh
 An increase in the frequency we may see a decrease in simSeconds and hostSeconds because the total time of the process depends on the frequency that the CPU has. By changing the technology of the cash I also expect to see a decrease in the host time because another type of memory which has lower access time decreases the time that the CPU needs to take the data and store them on the caches.
 
 ### REVIEW
-Overall, even I did not manage to run the gem5 on my laptop, I learned a lot of new things regarding the computer architecture, such as the basic for the CPUs, cashes and how to learn to search for all these new things. But to say the things how they are I spent much of my time to try and solve other type of problems such as download the linux (with vm, dual boot etc), run all the necessary instructions and eventually stopped by a different obstacle each time. Even from this painfull situation I also learn and practive and other skills, patience for instance...
+Overall, even I did not manage to run the gem5 on my laptop, I learned a lot of new things regarding the computer architecture, such as the basic for the CPUs, cashes and how to learn to search for all these new things. But to say the things how they are I spent much of my time to try and solve other type of problems such as download the linux (with vm, dual boot etc), run all the necessary instructions and eventually stopped by a different obstacle each time. Even from this painfull situation I also learned and practiced other skills, patience for instance...
 
 
 
