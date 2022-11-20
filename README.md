@@ -36,6 +36,9 @@ sim_seconds : seconds of the simulations <br />
 sim_insts : number of instructions simulated <br />
 host_inst_rate: The simulator instruction rate <br />
 
+### Q2c 
+number of commited instructions = 5027 (line 27 in stats.txt)
+
 ### Q2d
 L2 accesses <br /> 
 Instructions : 327 (line 840 in stats.txt) <br />
